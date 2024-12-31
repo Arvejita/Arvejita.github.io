@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+body{
+    background-color: #010101;
+    background-image: linear-gradient(to bottom, #010101, #010101,#010101ec, #01010133), url('./background.png');
+    background-repeat:repeat-x;
+    background-size: 150vh;
+    background-attachment: fixed;
+    background-position: center bottom;
+    
+
+}
+.container {
+    transition: 0.35s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 10%;
+    color: #4fa7ca;
+  }
+
+.nameBox {
+    
+    padding-top: 105px;
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    margin: auto;
+    font-style: normal;
+    font-variation-settings:
+        "ROND" 0;
+}
+
+.nameBox h1 {
+    font-size: 7vw;
+    display: inline;
+    text-orientation: mixed;
+}
+.nameBox p {
+    font-size: 1.45vw;
+    font-family: "Pixelify Sans";
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    display: inline;
+}
+
+.links {
+    display: flex;
+    font-family: "Pixelify Sans";
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    font-size: 0.7em;
+    margin: auto;
+    margin-top: 25px;
+}
+.links > a {
+    color: #A38DDF;
+    font-size: 2.5vw;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    border: solid;
+    border-width: 0.2vw ;
+    transition: 0.35s;
+}
+.links a:hover {
+    border: solid #C9DF8D;
+    color: #8CD68D;
+    border-width: 0.2vw ;
+}
+.topBar {
+    height: 100%;
+    transition: 0.35s;
+}
+.topBar .gsearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:10px;
+}
+.topBar .gsearch form input{
+    color: rgba(43, 141, 233, 0.233);
+    border: 0;
+    border-radius: 1;
+    background-color: #00000000;
+    transition: 0.35s;
+    font-family: "Pixelify Sans";
+    font-size: 2vw;
+}
+.topBar .gsearch form input:hover{
+    background-color: #4fa7ca75;
+}
+.topBar .gsearch form input:focus{
+    outline: none;
+}
+.topBar .gsearch form input::placeholder{
+    text-align: center; 
+}
+.topBar .requestBox a{
+    transition: 0.35s;
+    text-decoration: none;
+    font-family: "Neonderthaw";
+    font-weight: 400;
+    font-size: 2vw;
+    font-style: normal;
+    color: #6265ed;
+}
