@@ -141,3 +141,32 @@ body{
         background-image: linear-gradient(to bottom, #010101, #010101,#010101d5, #01010133), url('./background.png');
     }
 }
+@media screen and (max-width: 650px) {
+    .nameBox {
+      margin: auto;
+      margin-top: 100px;
+      padding-top: 0px;
+    }
+    .nameBox h1 {
+      font-size: 10vw;
+    }
+    .nameBox p {
+      font-size: 2.7vw;
+    }
+    .links a {
+        font-size: 5vw;
+        margin-right: 5px;
+    }
+    .links p {
+      display: none;
+    }
+    .topBar .gsearch form input{
+        font-size: 4vw;
+    }
+    .topBar .requestBox a{
+        font-size: 4vw;
+    }
+    body {
+        background-image: linear-gradient(to bottom, #010101, #010101,#010101d5, #01010133), url('./background.png');
+    }
+}
